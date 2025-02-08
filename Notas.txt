@@ -1,3 +1,11 @@
 https://www.w3schools.com/html/html_intro.asp
 
 https://stackoverflow.com/
+
+https://www.figma.com/design/D464FfN417KSWJHIUVpMnX/Portafolio---Curso?node-id=0-1&t=OzehjJGqjpVT1KLL-0
+
+chrome://flags/
+"WebGL" Activado
+
+https://docs.emmet.io/
+
