@@ -71,6 +71,15 @@ h1 {
   font-weight: 600;
   color: #f6f6f6;
   border: 2px solid #22d4fd;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.presentacion__enlaces__link:hover {
+  background-color: #272727;
+  border-color: #0000FF;
+  cursor: url('./assets/html-5.png'), auto;
 }
 
 /* .montserrat-<uniquifier> {
