@@ -8,8 +8,33 @@
 body {
   background-color: #000000;
   color: #f6f6f6;
-  height: 100vh;
   box-sizing: border-box;
+}
+
+.header {
+  padding: 2% 0% 0% 15%;
+}
+
+.header__menu {
+  display:flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 80px;
+}
+
+.header__menu__link  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #22d4fd;
+  margin: 0 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.header__menu__link:hover {
+  color: #007bff;
+  cursor: url('../assets/hand-pointer.png'), auto;
 }
 
 .titulo-destaque {
@@ -19,7 +44,7 @@ body {
 .presentacion {
   display: flex;
   align-items: center;
-  margin: 10%;
+  padding: 6% 15%;
   justify-content: space-between;
 }
 
@@ -79,7 +104,21 @@ h1 {
 .presentacion__enlaces__link:hover {
   background-color: #272727;
   border-color: #0000FF;
-  cursor: url('./assets/html-5.png'), auto;
+  cursor: url('../assets/hand-pointer.png'), auto;
+}
+
+img:hover {
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=37606), auto;
+}
+
+.footer {
+  background-color: #22d4fd;
+  padding: 24px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 /* .montserrat-<uniquifier> {
