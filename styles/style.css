@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+:root {
+  --color-primario: #000000;
+  --color-secundario: #f6f6f6;
+  --color-terciario: #22d4fd;
+  --color-hover: #272727;
+  /* --color-primario:#FA7070;
+  --color-secundario: #FBF2CF;
+  --color-terciario: #C6EBC5;
+  --color-hover: #A1C298; */
+  --fuente-montserrat: 'Montserrat', sans-serif;
+  --fuente-krona: 'Krona One', serif;
+}
+
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-  background-color: #000000;
-  color: #f6f6f6;
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
   box-sizing: border-box;
 }
 
@@ -23,10 +36,10 @@ body {
 }
 
 .header__menu__link  {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--fuente-montserrat);
   font-size: 18px;
   font-weight: 600;
-  color: #22d4fd;
+  color: var(--color-terciario);
   margin: 0 10px;
   padding: 10px 15px;
   text-decoration: none;
@@ -38,7 +51,7 @@ body {
 }
 
 .titulo-destaque {
-  color: #22d4fd;
+  color: var(--color-terciario);
 }
 
 .presentacion {
@@ -55,12 +68,12 @@ h1 {
 
 .presentacion__contenido__titulo {
   font-size: 36px;
-  font-family: "Krona One", serif;
+  font-family: var(--fuente-krona);
 }
 
 .presentacion__contenido__texto {
   font-size: 24px;
-  font-family: "Montserrat", serif;
+  font-family: var(--fuente-montserrat);
 }
 
 .presentacion__contenido {
@@ -79,10 +92,10 @@ h1 {
 }
 
 .presentacion__enlaces__subtitulo {
-  font-family: 'Krona One', sans-serif;
+  font-family: var(--fuente-krona);
   font-size: 24px;
   font-weight: 400;
-  color: #f6f6f6;
+  color: var(--color-secundario);
 }
 
 .presentacion__enlaces__link {
@@ -91,18 +104,18 @@ h1 {
   text-decoration: none;
   padding: 21.5px 0;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--fuente-montserrat);
   font-size: 24px;
   font-weight: 600;
-  color: #f6f6f6;
-  border: 2px solid #22d4fd;
+  color: var(--color-secundario);
+  border: 2px solid var(--color-terciario);
   display: flex;
   justify-content: center;
   gap: 16px;
 }
 
 .presentacion__enlaces__link:hover {
-  background-color: #272727;
+  background-color: var(--color-hover);
   border-color: #0000FF;
   cursor: url('../assets/hand-pointer.png'), auto;
 }
@@ -112,11 +125,11 @@ img:hover {
 }
 
 .footer {
-  background-color: #22d4fd;
+  background-color: var(--color-terciario);
   padding: 24px;
-  color: #000000;
+  color: var(--color-primario);
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--fuente-montserrat);
   font-size: 24px;
   font-weight: 400;
 }
